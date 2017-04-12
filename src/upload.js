@@ -32,11 +32,13 @@ const defaultHandler = upload.single('file')
 const handler = async (ctx, next) => {
   try{
     await defaultHandler(ctx, next)
+    console.log(ctx.req.file)
     let data = ctx.req.file
     datas[data.filename] = data
     let result = await sync(data)
     ctx.success({data: _.assign({id: data.filename}, result)})
   }catch(e){
+    console.log(e)
     ctx.fail(e)
   }
 }

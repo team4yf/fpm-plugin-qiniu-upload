@@ -2111,9 +2111,9 @@ xtend@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
-yf-fpm-server@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/yf-fpm-server/-/yf-fpm-server-2.2.3.tgz#24c1500ae5f7efceab8747310edcf7fdb43e2b80"
+yf-fpm-server@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/yf-fpm-server/-/yf-fpm-server-2.2.4.tgz#033d58566ed8c373d1baeb9377693c227d42c6e9"
   dependencies:
     koa "^2.0.0"
     koa-bodyparser "^3.2.0"

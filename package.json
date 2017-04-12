@@ -25,6 +25,6 @@
     "babel-preset-stage-2": "^6.13.0",
     "babel-register": "^6.14.0",
     "babel-runtime": "^6.0.0",
-    "yf-fpm-server": "^2.2.3"
+    "yf-fpm-server": "^2.2.4"
   }
 }
