@@ -20,3 +20,4 @@ public/dist/*
 uploads/
 
 key.js
+*-lock.json

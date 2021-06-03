@@ -1,8 +1,8 @@
-import _ from 'lodash'
-import Router from 'koa-router'
-import multer from 'koa-multer'
-import fs from 'fs'
-import { init, sync } from './qiniu.js'
+const _ = require('lodash');
+const Router = require('koa-router');
+const multer = require('koa-multer');
+const fs = require('fs');
+const { init, sync } = require('./qiniu.js');
 
 // // 初始化七牛的配置信息
 // init({})
@@ -59,4 +59,4 @@ router.get('/download/:id', async (ctx, next) => {
   await next()
 })
 
-export { init, router }
+module.exports = { init, router };

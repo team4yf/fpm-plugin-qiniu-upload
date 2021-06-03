@@ -1,5 +1,5 @@
-import _ from 'lodash'
-import qiniu from 'qiniu'
+const _ = require('lodash');
+const qiniu = require('qiniu');
 
 let _options = {
   isInit: false,
@@ -54,4 +54,4 @@ const sync = async (data)=>{
   return rst
 }
 
-export { init, sync } 
+module.exports = { init, sync };
